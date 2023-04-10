@@ -74,7 +74,7 @@ export default function PersonalDashboard() {
                         <div className={`${styles.rowFlex} ${styles.lightFont}`}>
                             <span>Full stack Developer</span>
                             <span> | </span>
-                            <span>Harvard'22"</span>
+                            <span>Harvard 2023</span>
                         </div>
                         <div className={`${styles.rowFlex} ${styles.lightFont}`}>
                             Mumbai, India
