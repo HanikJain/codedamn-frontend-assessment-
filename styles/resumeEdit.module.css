@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding: 1rem 3rem 1rem 3rem;
+    height: 90vh;
+    column-gap: 5rem;
+}
+
+.navigationTabContainer{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+.navigationBarContainer{
+  display: none;
+  width: 100%;
+}
+
+.rowFlex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    column-gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.colFlex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: col;
+    column-gap: 1rem;
+}
+
+.lightFont {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #71717A;
+}
+
+.boldFont {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    color: #18181B;
+}
+
+.colFlexBtw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container2 {
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: column;
+    gap:1rem;
+    row-gap: 0rem;
+    margin: 16px 0;
+    height: 94%;
+    overflow-y: auto;
+  
+  }
+
+  
+.container2::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .navigationBarContainer{
+      display: block;
+      width: 100%;
+    }
+    
+    .navigationTabContainer{
+      display: none;  
+    }
+  
+    .container {
+      padding: 1rem 12px;
+    }
+  
+    
+  }

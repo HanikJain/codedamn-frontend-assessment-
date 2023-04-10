@@ -1,7 +1,6 @@
 
 .container{
-    width: 100%;
-    margin-top: 3rem;
+    margin-top:1rem;
 }
 .statsContainer{
     margin-top:1rem;
@@ -12,14 +11,6 @@
     border-radius: 12px;
     padding: 1rem 0.5rem;
 
-}
-.rowFlex{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
-    column-gap: 1rem;
-    flex-wrap: wrap;
 }
 
 .colFlex {
@@ -52,9 +43,3 @@
     align-items: flex-start;
 }
 
-.colFlexBtw {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
